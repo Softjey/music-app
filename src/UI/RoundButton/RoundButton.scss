@@ -1,0 +1,8 @@
+.RoundButton {
+  width: 42px;
+  height: 42px;
+  aspect-ratio: 1;
+  background-color: #F8F8F8;
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.1)) drop-shadow(-10px -10px 15px #FFF);
+  border-radius: 100%;
+}

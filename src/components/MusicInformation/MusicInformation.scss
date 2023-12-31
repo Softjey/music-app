@@ -1,0 +1,68 @@
+@import '../../styles/vars.scss';
+
+$c-music-information-bg: #F4F4F4;
+$c-music-status: #D0D1DB;
+$c-music-name: #86748D;
+$c-music-author-and-album: #BEB7C0;
+
+.MusicInformation {
+  height: 366px;
+  background-color: $c-music-information-bg;
+  border-radius: $base-border-radius;
+
+  stroke-width: 1px;
+  stroke: #FFF;
+  filter: drop-shadow(0px 40px 60px rgba(54, 48, 116, 0.30));
+
+  padding-block: 40px;
+  padding-inline: 40px 60px;
+
+  &__content {
+    display: flex;
+    gap: 40px;
+    height: 100%;
+    width: 100%;
+  }
+
+  &__song-info {
+    flex: 1;
+    padding-block: 30px;
+    text-wrap: nowrap;
+  }
+
+  &__status {
+    color: $c-music-status;
+    text-shadow: 1px 1px 1px #FFF;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &__song-name {
+    margin-top: 50px;
+
+    color: $c-music-name;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+
+  &__author {
+    color: $c-music-author-and-album;
+    font-size: 24px;
+    line-height: 130%;
+  }
+
+  &__album {
+    color: $c-music-author-and-album;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+  }
+}

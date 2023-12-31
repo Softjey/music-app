@@ -1,0 +1,17 @@
+@import '../../styles/vars.scss';
+
+$c-music-player: #F0F0F0;
+
+.MusicPlayer {
+  height: 308px;
+  border-radius: $base-border-radius;
+  background-color: $c-music-player;
+
+  stroke-width: 1px;
+  stroke: #FFF;
+  filter: drop-shadow(0px 40px 60px rgba(65, 44, 100, 0.30));
+
+  &__show {
+    border-radius: 0 0 $base-border-radius $base-border-radius;
+  }
+}

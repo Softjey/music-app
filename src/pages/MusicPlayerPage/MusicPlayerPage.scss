@@ -1,0 +1,16 @@
+.MusicPlayerPage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  &__top {
+    z-index: 1;
+  }
+
+  &__bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
