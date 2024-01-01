@@ -2,7 +2,9 @@
 
 $c-music-player: #F0F0F0;
 
-.MusicPlayer {
+.AudioPlayer {
+  display: flex;
+
   height: 308px;
   border-radius: $base-border-radius;
   background-color: $c-music-player;
@@ -13,5 +15,14 @@ $c-music-player: #F0F0F0;
 
   &__show {
     border-radius: 0 0 $base-border-radius $base-border-radius;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: $base-border-radius;
+    width: 100%;
+    padding-inline: 50px;
+    padding-block: 60px;
   }
 }
