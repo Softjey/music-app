@@ -1,12 +1,12 @@
 import React from 'react';
 import './MusicInformation.scss';
+import '../../pages/AudioPlayerPage/AudioPlayerPage.scss'
 import CoverArt from '../../UI/CoverArt';
-import RoundButton from '../../UI/RoundButton';
 
 export const MusicInformation: React.FC = () => {
 
   return (
-    <div className='MusicInformation MusicPlayerPage__top'>
+    <div className='MusicInformation AudioPlayerPage__top'>
       <div className='MusicInformation__content'>
         <CoverArt
           imgUrl='./src/assets/images/musicTestAvatar.png'
@@ -22,7 +22,7 @@ export const MusicInformation: React.FC = () => {
         </div>
 
         <div className='MusicInformation__buttons'>
-          <RoundButton
+          {/* <RoundButton
             iconPath='/src/assets/images/icons/is-liked-icon.svg'
             onClick={() => {}}
           />
@@ -35,7 +35,7 @@ export const MusicInformation: React.FC = () => {
           <RoundButton
             iconPath='/src/assets/images/icons/share-icon.svg'
             onClick={() => {}}
-          />
+          /> */}
         </div>
       </div>
     </div>

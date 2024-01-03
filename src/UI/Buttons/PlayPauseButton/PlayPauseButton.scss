@@ -1,0 +1,25 @@
+.PlayPauseButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 80px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  background-color: #F8F8F8;
+  box-shadow: -10px -10px 20px 0px #FFF inset, 10px 10px 10px 0px rgba(0, 0, 0, 0.05) inset;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.05)) drop-shadow(-10px -10px 15px #FFF);
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 58px;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    background: linear-gradient(159deg, #917CE4 26.46%, rgba(63, 45, 137, 0.00) 116.55%);
+    box-shadow: 10px 10px 15px 0px rgba(255, 255, 255, 0.20) inset;
+    filter: drop-shadow(0px 5px 10px rgba(55, 46, 152, 0.65));
+  }
+}

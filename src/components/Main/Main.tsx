@@ -1,13 +1,13 @@
 import React from 'react';
 
 import './Main.scss';
-import MusicPlayerPage from '../../pages/MusicPlayerPage';
+import AudioPlayerPage from '../../pages/AudioPlayerPage';
 
 export const Main: React.FC = () => {
 
   return (
     <main className='Main'>
-      <MusicPlayerPage />
+      <AudioPlayerPage />
     </main>
   );
 };

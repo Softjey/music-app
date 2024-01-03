@@ -18,8 +18,8 @@ export const AudioProgressBar: React.FC<Props> = ({
   const percentHasPassed = (audioProgress / songDuration) * 100;
   const sliderGradient = `linear-gradient(
       90deg,
-      #6e4de1 0%,
-      #6e4de1 ${percentHasPassed}%,
+      #5D24D6 0%,
+      #7E74ED ${percentHasPassed}%,
       #f7f6f8 ${percentHasPassed}%
     )`;
 
